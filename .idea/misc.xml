@@ -1,0 +1,28 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/cus.xml" value="0.1331521739130435" />
+        <entry key="app/src/main/res/layout/cuspay.xml" value="0.1331521739130435" />
+        <entry key="app/src/main/res/layout/home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/main.xml" value="0.17527173913043478" />
+        <entry key="app/src/main/res/layout/notification.xml" value="0.1331521739130435" />
+        <entry key="app/src/main/res/layout/payment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/quiz.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/req.xml" value="0.1331521739130435" />
+        <entry key="app/src/main/res/layout/sponsor.xml" value="0.1331521739130435" />
+        <entry key="app/src/main/res/layout/sub.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/subscription.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/update.xml" value="0.11231884057971014" />
+        <entry key="app/src/main/res/layout/user.xml" value="0.1331521739130435" />
+        <entry key="app/src/main/res/layout/users.xml" value="0.1331521739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
