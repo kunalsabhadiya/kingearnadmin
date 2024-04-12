@@ -31,15 +31,8 @@ public class HomeActivity extends AppCompatActivity {
 	private FirebaseDatabase _firebase = FirebaseDatabase.getInstance();
 	
 	private double total = 0;
-	private HashMap<String, Object> m = new HashMap<>();
 	
 	private ArrayList<HashMap<String, Object>> listmap = new ArrayList<>();
-	private ArrayList<HashMap<String, Object>> listmap2 = new ArrayList<>();
-	private ArrayList<HashMap<String, Object>> listmap3 = new ArrayList<>();
-	
-	private ScrollView vscroll1;
-	private LinearLayout linear1;
-	private LinearLayout linear2;
 	private LinearLayout linear3;
 	private LinearLayout linear16;
 	private LinearLayout linear7;
@@ -48,17 +41,8 @@ public class HomeActivity extends AppCompatActivity {
 	private LinearLayout linear14;
 	private LinearLayout linear15;
 	private LinearLayout linear17;
-	private TextView textview1;
 	private LinearLayout linear4;
-	private TextView textview4;
 	private TextView textview2;
-	private TextView textview16;
-	private TextView textview7;
-	private TextView textview9;
-	private TextView textview11;
-	private TextView textview14;
-	private TextView textview15;
-	private TextView textview17;
 	
 	private Intent i = new Intent();
 	private DatabaseReference users = _firebase.getReference("users");
@@ -81,9 +65,6 @@ public class HomeActivity extends AppCompatActivity {
 	}
 	
 	private void initialize(Bundle _savedInstanceState) {
-		vscroll1 = (ScrollView) findViewById(R.id.vscroll1);
-		linear1 = (LinearLayout) findViewById(R.id.linear1);
-		linear2 = (LinearLayout) findViewById(R.id.linear2);
 		linear3 = (LinearLayout) findViewById(R.id.linear3);
 		linear16 = (LinearLayout) findViewById(R.id.linear16);
 		linear7 = (LinearLayout) findViewById(R.id.linear7);
@@ -92,17 +73,8 @@ public class HomeActivity extends AppCompatActivity {
 		linear14 = (LinearLayout) findViewById(R.id.linear14);
 		linear15 = (LinearLayout) findViewById(R.id.linear15);
 		linear17 = (LinearLayout) findViewById(R.id.linear17);
-		textview1 = (TextView) findViewById(R.id.textview1);
 		linear4 = (LinearLayout) findViewById(R.id.linear4);
-		textview4 = (TextView) findViewById(R.id.textview4);
 		textview2 = (TextView) findViewById(R.id.textview2);
-		textview16 = (TextView) findViewById(R.id.textview16);
-		textview7 = (TextView) findViewById(R.id.textview7);
-		textview9 = (TextView) findViewById(R.id.textview9);
-		textview11 = (TextView) findViewById(R.id.textview11);
-		textview14 = (TextView) findViewById(R.id.textview14);
-		textview15 = (TextView) findViewById(R.id.textview15);
-		textview17 = (TextView) findViewById(R.id.textview17);
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
 			@Override

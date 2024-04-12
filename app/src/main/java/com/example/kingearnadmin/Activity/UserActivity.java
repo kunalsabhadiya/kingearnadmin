@@ -7,6 +7,8 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.example.kingearnadmin.R;
 import com.example.kingearnadmin.Utils.SketchwareUtil;
 import com.google.android.material.appbar.AppBarLayout;
+
+import android.annotation.SuppressLint;
 import android.app.*;
 import android.os.*;
 import android.view.*;
@@ -513,6 +515,7 @@ public class UserActivity extends AppCompatActivity {
 		return random.nextInt(_max - _min + 1) + _min;
 	}
 	
+	@SuppressLint("SuspiciousIndentation")
 	@Deprecated
 	public ArrayList<Double> getCheckedItemPositionsToArray(ListView _list) {
 		ArrayList<Double> _result = new ArrayList<Double>();

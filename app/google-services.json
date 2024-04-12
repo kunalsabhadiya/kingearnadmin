@@ -1,66 +1,26 @@
 {
   "project_info": {
-    "project_number": "17566067910",
-    "firebase_url": "https://earning-2c285-default-rtdb.firebaseio.com",
-    "project_id": "earning-2c285",
-    "storage_bucket": "earning-2c285.appspot.com"
+    "project_number": "999532478862",
+    "project_id": "adminearningapp",
+    "storage_bucket": "adminearningapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:17566067910:android:475276c8c72289c8c57bc7",
+        "mobilesdk_app_id": "1:999532478862:android:9ee949ae73c589d3f2e4df",
         "android_client_info": {
           "package_name": "com.example.kingearnadmin"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "17566067910-lsd5uv19n740vd2qiqn8vpq3e4nvs7pc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBAwqVT5jibZSnUoVA5deeXdXwQJdWMILM"
+          "current_key": "AIzaSyBartQJ455iLyF8Byn9XuoYFC5qpYi7giU"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "17566067910-lsd5uv19n740vd2qiqn8vpq3e4nvs7pc.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:17566067910:android:6d892d5315a197eec57bc7",
-        "android_client_info": {
-          "package_name": "com.example.kingearningadmin"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "17566067910-lsd5uv19n740vd2qiqn8vpq3e4nvs7pc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBAwqVT5jibZSnUoVA5deeXdXwQJdWMILM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "17566067910-lsd5uv19n740vd2qiqn8vpq3e4nvs7pc.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
